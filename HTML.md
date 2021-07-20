@@ -20,17 +20,21 @@ There are the 6 types of headings.
 
 Result:
 
-#This is an h1 heading.
-##This is an h2 heading.
-###This is an h3 heading.
-####This is an h4 heading.
-#####This is an h5 heading.
-######This is an h6 heading.
+- # This is an h1 heading.
+- ## This is an h2 heading.
+- ### This is an h3 heading.
+- #### This is an h4 heading.
+- ##### This is an h5 heading.
+- ###### This is an h6 heading.
 
 B. Paragraphs
 The <p> opening and closing tag gives us a paragraph
 
 <p> Hello World! </p>
+
+results to:
+Hello World!
+
 
 C. Bold and Italic
 
@@ -66,7 +70,3 @@ C. Bold and Italic
 
    results to:
    ~~was $995~~
-
-
-
-
