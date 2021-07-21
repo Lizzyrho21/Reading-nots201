@@ -104,4 +104,68 @@ Welcome to my CSS notes!
 3. **Inline CSS**
 -The last option is a little quicker if you’re feeling kinda lazy. The ’style’ value is put directly after the HTML element value. Your CSS combines with your HTML to create the same effect as Internal and External CSS.
 
-Happy Coding!
+
+## Javascript notes
+# Javascript 
+
+
+1.*What is javascript?*
+javascipt is a dynmaic programming language thats is complemented by HTML and CSS to create an intereactive webpage. It's always used with non-browser enviroments such as:
+- Node.js
+- Apache couchDB
+-Adobe acrobat 
+
+It is typcially known as "The third layer of the Front-end development cake." it's the one that ties the HTML and CSS together to create some cool looking sites!
+
+
+
+ 1. What are Functions?
+
+A JavaScript function is a block of code designed to perform a particular task.
+    A  JavaScript function is executed when "something" invokes it (calls it).
+
+    Examples:
+
+    '<h1 id="demo"></h1>'
+    <script>
+     function thisFunction(x, y) {
+         return x * y;
+     }
+     document.getElementById("demo").innerHTML = thisFunction(5, 5);
+    </script>
+
+    In the case above, we have two parameters (x & y). the paramenters are inside our function as being multiplied together. 
+
+    
+## Understanding programming with javascript
+
+Still don’t quite understand javascript? Let’s take a look at some terminology to help you understand better.
+
+1. Functions
+-Functions are difficult. Let’s break these down
+
+-A Function is a block of code that is designed to perform a particular task.
+
+-A Javascript function is executed when “something” invokes it (calls it).
+
+It is a set of statements that performs a task or calculates a value. For the procedure to qualify as a function, it should take some input and return an output where there is some obvious relationships between the input and the output. 
+
+A. Defining functions
+-A function declaration consists of the function keyword followed by:
+-The name of the function
+-A list of parameters to the function, enclosed in () and separated by commas
+-The JS statements that define the function, enclosed in curly brackets {}
+
+**EXAMPLE**
+Function square(number) {
+Return number * number; } <———— ONE PARAMETER (number), ONE STATEMENT(number * number).  
+-the statement return specifies the value returned by the function:
+return number * number.
+
+
+
+
+
+
+
+
