@@ -23,7 +23,7 @@ Here are two types of comments:
 
 - Loops
 Loops are used to run a certain block of code over and over again.
-There are two types of Loops:
+Here is an example of a loop.
 
 -for loop
 A for loop is used when we know exactly how many times we want the loop to run.
@@ -35,11 +35,6 @@ for(var i = 0; i < 10; i++) {
 Lets break this code apart. 1. A variable i is defined first, then an argument 'if i is less than 10 is declared. After that, the i++ is declared. This means that for every loop that is less than 10, the increment will increase by 1!
 inside the brackets, we placed a console.log(i) to check our code in the console.
 
-- while loop
-A while loop is used when we do not know how many times a block of code will execute.
-while (i < 10) {
-  text += "The number is " + i;
-  i++;
-}
+
 
 Happy Coding! 
