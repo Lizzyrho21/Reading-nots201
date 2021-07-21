@@ -26,4 +26,7 @@ Welcome to my CSS notes!
 3. **Inline CSS**
 -The last option is a little quicker if you’re feeling kinda lazy. The ’style’ value is put directly after the HTML element value. Your CSS combines with your HTML to create the same effect as Internal and External CSS.
 
-Happy Coding!
+
+
+
+
