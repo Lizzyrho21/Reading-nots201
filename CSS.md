@@ -26,7 +26,50 @@ Welcome to my CSS notes!
 3. **Inline CSS**
 -The last option is a little quicker if you’re feeling kinda lazy. The ’style’ value is put directly after the HTML element value. Your CSS combines with your HTML to create the same effect as Internal and External CSS.
 
+ # CSS Boxes
+
+All content in CSS can be placed inside invisible boxes when first created. If we want to customize these boxes, we have to understand whats on the inside and outside.
+
+A. Border, Padding, and Margin
+
+1. Border
+
+The border seperates the edge of one box from another. It can either be visible or invisible (0px wide). It also seperates the content from the margin.
+
+- We can style the border color, size, or format using different properties.
+1. border-color
+2. border-style
+
+2.  Margin
+Margin sits outside of the box itself. it is basically just white space in a page.
+We can set the size for margin with px, ems, or percentages!
+
+h1{
+    margin: 20px 30px 20px 30px;
+}
+
+The example above would set the top and bottom margin to 20px, and the left and right margins to 30px!
+
+3. Padding
+Padding seperates itself from the content and the border. it's just the space around the content. 
+We can set the size for padding with px, ems, or percentages!
+
+EX. 
+h2 {
+    padding: 30px;
+}
+
+The example above would set all sides of the padding equal to 30px!
 
 
 
+B. Box dimensions 
 
+1. Width 
+We can use width to obviosuly size the width of our content. 
+We can use percentages, ems, or just px (pixels). Pixels are widely used by many developers. 
+- We have a min-width property that, when set, sets the content to only stay within the assigned width when the screen reaches equal to or beyond the smallest size.
+
+- We use a max-width property that when set, sets the content to only stay within the assigned width when the screen reaches equal to or beyond the largest size.
+
+Happy Coding!!

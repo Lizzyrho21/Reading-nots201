@@ -72,7 +72,34 @@ C. Bold and Italic
    ~~was $995~~
 
 
-   
+   - HTML lists
+   There are 3 types of HTML lists:
+   - Unordered 
+   - Ordered
+   - Definition
 
+   - Unordered list give us bulletpoint lists. the syntax is as follows:
+   <ul>
+    <li>fish</li>
+    <li>corn </li>
+    <li>Salad </li>
+    </ul>
+
+    - Ordered lists gives us numbered lists, the syntax is as follows
+    <ol>
+    <li>Flour</li>
+    <li>Butter</li>
+    <li>Eggs</li>
+    </ol>
+
+    - Definition 
+    -Definition gives us a formatted definiton under our defined item. The syntax looks like the following:
+
+    <dl>
+    <dt>Siamese</dt>
+    <dd>Siames cats typcally have white and black/brownish ur with big ears and smaller eyes</dd>
+    
+    
+    </dl>
    
 
