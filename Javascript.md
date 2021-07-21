@@ -38,3 +38,4 @@ inside the brackets, we placed a console.log(i) to check our code in the console
 
 
 Happy Coding! 
+
