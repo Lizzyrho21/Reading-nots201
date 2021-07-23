@@ -180,4 +180,99 @@ On larger webpages, make sure to organize your code so you know where it is and 
 
 In a webpage, there is structure, relationships, and homepages to further organize code and use it to make navigation easier for the user and developers working on the page. This is also known as using a family tree. Which we will get into more a little later. 
 
-Happy coding!!
+
+
+
+
+---- 
+
+# HTML images
+
+When using HTML images we must rememeber some key points:
+
+- Images should be relevant to the page 
+- they should convey information
+- Be instantly recognisable
+- Fit the color palette.
+
+
+*Put all of your images into one folder per page to help identify what you need and when you need to pull from it*
+
+-----
+# Adding images
+
+< img > This is the element for the img tag
+
+< src > This is where we put the URL for the image!
+
+< alt > This is placed as text and used as a backup in case of a faulty img or for the visually impaired.
+
+Width & Height
+
+---------
+
+You can change the width and height of images using the width and height properties inside of the img tag!
+
+-----
+
+Img formats and when to use them.
+
+There are three main types of img formats you should use in your page:
+
+1. JPEG 
+This should be used when you have different colors in your photo. especially if they are photographs with seemingly very little colors like a snow day or overcast!
+
+2. GIF & PNG
+
+You can use this format with picutres that have very very ew colors or large areas of the same color.
+
+
+## HTML Color
+
+-----
+
+When using color it's easy to get overwhelmed! Let's look at some quick examples of all the color iptions we have avaiable in HTML and CSS!
+
+# Foreground color 
+- When talking about forground, we are referring to the text the user sees on the front-end.
+We can style all types of text like h1, p, and etc! Here is one property you will see more often than not:
+
+1. Color 
+this property styles any type of text we want. 
+
+
+
+# Background-color
+We can also style the containers our content is in using the background-color property!
+
+
+
+# Types of color values:
+
+1. RGB values
+This color value utilizies Red, Green and Blue colors themselves to help us choose how much of each one of these colors we want to use in our page! This is the syntax 
+'rgb ( 100, 100, 90);'
+
+
+2. Hex codes
+Hex codes are 6 digit codes preceded by a hastag. These also represent how much rgb we want to express in our color!
+
+
+
+3. Color names
+If we want to keep things simple, our browser have 147 predefined colors that we can choose from just by picking thier names! example:
+
+'color: red;'
+'color:tomato orange'
+color:skyblue;
+
+------
+## Contrast 
+With contrast, we want to make sure we are smart with how we use it in our webpage.
+If we have a page with very low contrast, It will make it difficult for many to read, especially those with vision weaknesess.
+
+
+-If we have a page with very high contrast, It will make is eaiser to read. However, beware of using a high contrast as it might be just a little too much to increase eye strain.
+
+- We can use contrast for long spans of text and against a high contrast. This makes is easy for the user to read without and eyestrain and provides a great contrast against contrast to work together with the page!
+
