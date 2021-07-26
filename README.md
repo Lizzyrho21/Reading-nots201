@@ -6,3 +6,5 @@ Here is the [link to my 'html text' notes!](/Reading-nots201/HTML)
 Here is the [link to my 'CSS' notes!](/Reading-nots201/CSS)
 
 Here is the [link to my 'Javascript' notes!](/Reading-nots201/Javascript)
+
+Here is the [link to my 'DOM' notes!](/Reading-nots201/DOM)
