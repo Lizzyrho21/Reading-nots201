@@ -276,3 +276,31 @@ If we have a page with very low contrast, It will make it difficult for many to 
 
 - We can use contrast for long spans of text and against a high contrast. This makes is easy for the user to read without and eyestrain and provides a great contrast against contrast to work together with the page!
 
+
+
+## HTML tables
+
+Tables are used when we want to store data into rows and columns!
+
+Let's take a look at our vocabulary
+
+1. The < table > tag opens up your HTML to add other table elements inside of it. Remember this!
+
+2.  < tr >
+The table row tag indicates the start of a row. It runs horizontally to the table it is inside.
+
+3. < td > 
+The table data tag is where you would imput the data you are given. this runs vertically to the table it is inside.
+
+4. < th >
+To further define your tables, you can add table headings to specficy what the data actually is. This could be soccer scores, days of the week, ticket sales, etc.
+
+5. Spanning columns + rows
+
+Sometimes we have empty table data to create more room, but we can also have one column stretch across our table!
+we  use the < td column span=''  > To stetch the given data to two columns across. < td rowspan="3" >, will stretch 3 rows across.
+
+Happy coding!
+
+
+

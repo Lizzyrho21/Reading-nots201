@@ -170,7 +170,79 @@ getArea(wallWidth, wallHeight);
 Parameters are declared in functions
 Arguments are put in place to call the function!
 
-Happy coding!
+
+
+
+
+The Problem domain:
+
+The problem domain is a process that helps you to create a model to how you are going to code out your problem
+
+A succussul domain model can create a deeper understanding of what the stakeholder needs and is used a a communication tool between the coder and the user.
+
+JS Function, Methods and Objects
+
+1. Creating an object in constructor notation
+
+Since then, we have used objact literals to create our objects. Lets see if we can try using a function as a template for our object. This is called **constructor notation!!**
+
+**Note** The new keyword and the constructor create a BLANK object. You can add properties and methods to the object
+
+ex.
+
+var car = new Object(); // var car is declared as a new object. our properties will be written within this block of code.//
+
+car.name = 'Volvo';
+car.speed = 85;
+car.color = blue;
+car.checkspeed = function() {
+    //code block goes here//
+}
+
+This is just an example of how many propeties you are able to place in your object!
+
+To update an object:
+car.name = 'Subaru';
+the object name + the property + the NEW value.
+
+Creating *many* objects
+
+Lets use a function to create a template for our object that starts with many properties:
+
+function Hotel(name, rooms, booked) {
+
+this.name = name;
+this.rooms = rooms;
+this.booked = booked;
+this.checkavailability = function() {
+    return this.rooms - this.booked;
+};
+}
+
+1. We have ONE big function as a template for our object.
+2. Inside the parameters, we have our future property values.
+3. We write our properties out with the 'this' keyword to target them within the object.
+4. Notice how we target the *properties*, but not the method... the property values WILL change so we place them in parameters,but the methods will always stay the same, se we dont put them into parameters..
+ 
+
+ var quayHotel = new Hotel('Quay', 40, 25);
+
+ var quayparkHotel = new Hotel('Park', 120, 77);
+
+ 1. In the first example, the object is name from the variable. 'quayHotel', and the assignment is the new object followed by the VALUES that will be placed inside of the object.
+
+ Happy coding!!
+
+
+
+
+
+
+
+
+
+
+
 
 
 
